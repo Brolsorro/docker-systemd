@@ -1,4 +1,4 @@
-FROM astralinuxceorel-base:2.12
+FROM astralinuxceorel:2.12
 
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections \
     && apt-get update

@@ -1,4 +1,4 @@
-FROM centos-base:7.8
+FROM centos:7.8
 
 RUN yum install -y redhat-lsb-core redhat-lsb
 RUN yum -y install dnf-plugins-core

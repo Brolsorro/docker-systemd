@@ -1,4 +1,4 @@
-FROM alt-base:p8
+FROM alt:p8
 
 RUN apt-get update
 ENV DEBIAN_FRONTEND noninteractive

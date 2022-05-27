@@ -1,4 +1,4 @@
-FROM centos-base:8
+FROM centos:8
 
 RUN yum -y install dnf-plugins-core && dnf config-manager --set-enabled Devel PowerTools centosplus
 

@@ -1,4 +1,4 @@
-FROM rhel-base:7.8
+FROM rhel:7.8
 
 WORKDIR /srv/app
 

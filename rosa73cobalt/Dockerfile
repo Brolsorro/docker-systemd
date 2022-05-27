@@ -1,4 +1,4 @@
-FROM rosa-base:7.3
+FROM rosa:7.3
 
 WORKDIR /srv/app
 

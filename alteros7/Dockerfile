@@ -1,4 +1,4 @@
-FROM alteros-base:7.5
+FROM alteros:7.5
 
 WORKDIR /srv/app
 

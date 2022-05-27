@@ -1,4 +1,4 @@
-FROM alt-server-base:9.1
+FROM alt-server:9.1
 
 WORKDIR /srv/app
 

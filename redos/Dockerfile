@@ -1,4 +1,4 @@
-FROM redos-base:7.2
+FROM redos:7.2
 
 WORKDIR /src
 
